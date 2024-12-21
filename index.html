@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egehan Aydin</title>
+</head>
+<style>
+    .baslik {
+        width: 100%;
+        background-color: rgb(0, 255, 255)
+    }
+
+    .profil-foto {
+        width: 250px;
+        border-radius: 30%;
+        border: 3px solid black;
+        height: 250px;
+        margin: calc(50% - 125px);
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    .isim {
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .aciklama {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: larger;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+    }
+
+    .logo {
+        width: 75px;
+        height: 75px;
+        margin: 5px;
+
+    }
+
+    .yonlendirmeler {
+        display: flex;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <div class="baslik">
+
+        <img class="profil-foto"
+            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+            alt="fotoğrafim">"
+
+        <h1 class="isim">Egehan Aydin</h1>
+
+        <div class="yonlendirmeler">
+
+            <a href="https://github.com/egehan8" target="_blank">
+                <img class="logo"
+                    src="data:image/png;base64,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"
+                    alt="">
+            </a>
+        </div>
+    </div>
+
+    <div class="aciklama">
+        <p>
+            Merhaba benim adim Egehan 10 yaşindayim 5.sinif öğrencisiyim futbol oynamayi severim büyüyünce yapay zeka
+            mühendisi olucam en
+
+            sevdiğim ders bilişim,beden ve yazilim oynadiğim oyunlar minecraft ve brawl stars ve fc25
+        </p>
+    </div>
+</body>
+
+
+</html>
